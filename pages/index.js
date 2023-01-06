@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -16,6 +17,10 @@ export default function Home() {
           Get started by editing <code>pages/index.js</code>
         </p>
       </main>
+
+      <div className='container rounded-3 bg-black w-75'>
+        <p className='text-white'>tester</p>
+      </div>
 
       <Footer />
     </div>
